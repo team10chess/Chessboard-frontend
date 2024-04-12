@@ -13,7 +13,7 @@ const app = express(),
       server = http.Server(app),
       io = socket(server);
 
-server.listen(url('https://chessboard-frontend-front-ixrz0ydba-team10s-projects-a28d7dbd.vercel.app/'));
+server.listen(config.port);
 
 games = {};
 
